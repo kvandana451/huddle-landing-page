@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+}
+body {
+  min-height: 100vh;
+  background-image: url("./images/bg-desktop.svg");
+  background-color: var(--Violet);
+  font-size: 1.5rem;
+  color: white;
+  margin: auto 1rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  gap: 8px;
+}
+.container .hudle-info {
+}
+.register-btn {
+  border-radius: 1.25rem;
+  padding: 0.5rem 2.25rem;
+  margin-top: 1rem;
+  border: none;
+  color: var(--Violet);
+  cursor: pointer;
+}
+.register-btn:hover {
+  background-color: var(--Soft-Magenta);
+}
+
+/* .container .hudle-info h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.container .hudle-info p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+} */
+.hero-img {
+  height: 350px;
+  width: 200vw;
+}
+
+.social-icons {
+  float: right;
+  margin-right: 10px;
+  display: inline-block;
+  color: white;
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 50%;
+  border-color: black;
+}
+.social-icons i {
+  padding: 0.4rem;
+  border-radius: 100%;
+  border: 1px solid white;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.social-icons i:hover {
+  background-color: var(--Soft-Magenta);
+  border-color: var(--Soft-Magenta);
+}
+.social-icons :nth-of-type(1) {
+  border-radius: 125%;
+}
