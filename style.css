@@ -22,8 +22,7 @@ body {
   max-width: 100%;
   gap: 8px;
 }
-.container .hudle-info {
-}
+
 .register-btn {
   border-radius: 1.25rem;
   padding: 0.5rem 2.25rem;
@@ -36,14 +35,6 @@ body {
   background-color: var(--Soft-Magenta);
 }
 
-/* .container .hudle-info h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
-.container .hudle-info p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-} */
 .hero-img {
   height: 350px;
   width: 200vw;
@@ -72,4 +63,13 @@ body {
 }
 .social-icons :nth-of-type(1) {
   border-radius: 125%;
+}
+
+@media (max-width: 892px) {
+  .container {
+    flex-direction: column;
+  }
+  .hero-img {
+    width: 100%;
+  }
 }
